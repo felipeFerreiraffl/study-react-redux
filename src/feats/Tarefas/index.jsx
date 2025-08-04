@@ -20,13 +20,15 @@ export default function Tarefas() {
   return (
     <div className={styles.tarefas}>
       <h2>Lista de tarefas</h2>
-      <input
-        type="text"
-        value={novaTarefa} // Valor do input controlado pelo estado local
-        onChange={(e) => setNovaTarefa(e.target.value)} // Atualiza o estado local com o valor do input
-        placeholder="Digite uma tarefa..."
-      />
-      <button onClick={handleAdicionarTarefa}>Adicionar tarefa</button>
+      <form>
+        <input
+          type="text"
+          value={novaTarefa} // Valor do input controlado pelo estado local
+          onChange={(e) => setNovaTarefa(e.target.value)} // Atualiza o estado local com o valor do input
+          placeholder="Digite uma tarefa..."
+        />
+        <button onClick={handleAdicionarTarefa}>Adicionar tarefa</button>
+      </form>
 
       <ul>
         {/* Adiciona tarefas baseado no input, com auxílio do Slice */}
