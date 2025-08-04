@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { adicionarTarefa, removerTarefa } from "../tarefasSlice";
+import styles from "./style.module.css"; // Importa os estilos do componente
 import { useState } from "react";
 
 export default function Tarefas() {
@@ -17,7 +18,7 @@ export default function Tarefas() {
   };
 
   return (
-    <div>
+    <div className={styles.tarefas}>
       <h2>Lista de tarefas</h2>
       <input
         type="text"

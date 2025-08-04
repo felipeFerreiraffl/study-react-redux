@@ -2,10 +2,12 @@ import Tarefas from "./feats/Tarefas";
 
 export default function App() {
   return (
-    <div>
-      <h1>Gerenciador de Tarefas</h1>
+    <div className="app">
+      <div className="container">
+        <h1>Gerenciador de Tarefas</h1>
 
-      <Tarefas />
+        <Tarefas />
+      </div>
     </div>
   );
 }
