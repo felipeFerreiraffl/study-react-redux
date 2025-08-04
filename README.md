@@ -9,10 +9,10 @@ Gerenciamento de tarefas como treino para uso de Redux
 
 <div align="center">
 <a href="#-O-que-é">O que é</a> |
-<a href="#">Como funciona</a> |
-<a href="#">Descrição</a> |
-<a href="#">Ferramentas</a> |
-<a href="#">Autor</a>
+<a href="#Como-funciona">Como funciona</a> |
+<a href="#Descrição">Descrição</a> |
+<a href="#Ferramentas">Ferramentas</a> |
+<a href="#Autor">Autor</a>
 </div>
 
 ****
