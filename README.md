@@ -67,18 +67,9 @@ Felipe Ferreira Lima, um estudante da área de programação.
 
 #### 📱 Onde me encontrar 
 
-<div class="inline-div">
 
 [![GitHub](https://img.shields.io/badge/felipeFerreiraffl-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/felipeFerreiraffl)
 
 [![Linkedin](https://img.shields.io/badge/Felipe_Ferreira-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-ferreira-959bb8271)
 
 [![Instagram](https://img.shields.io/badge/felipe__ffl7-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/felipe_ffl7)
-</div>
-
-<style>
-    .inline-div {
-        display: flex;
-        gap: 12px;
-    }
-</style>
